@@ -63,7 +63,46 @@ ul{
     list-style-type: none;
     line-height: 30px;
 }
-.done:before{
-    content: '---';
+.done::before{
+    content:"&#11206";
 
+}
+
+.cerchio{
+    font-size: 10px;
+    border: 1px solid black;  border-radius: 10px;
+    background-color: rgb(27, 163, 236);
+    color: white;
+}
+.cerchio_violet{
+    font-size: 10px;
+    border: 1px solid black;  border-radius: 10px;
+    background-color:rgb(162, 10, 233);
+    color: white;
+
+}
+.cerchio_green{
+    font-size: 10px;
+    border: 1px solid black;  border-radius: 10px;
+    background-color:lightgreen;
+    color: white;
+}
+
+.cerchio_orange{
+    font-size: 10px;
+    border: 1px solid black;  border-radius: 10px;
+    background-color:orange;
+    color: white;
+}
+.cerchio_2{
+    font-size: 10px;
+    border: 1px solid black;  border-radius: 10px;
+    background-color:violet;
+    color: white;
+}
+.cerchio_lightgreen{
+    font-size: 10px;
+    border: 1px solid black;  border-radius: 10px;
+    background-color:rgb(163, 255, 16);
+    color: white;
 }
