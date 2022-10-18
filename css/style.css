@@ -63,9 +63,16 @@ ul{
     list-style-type: none;
     line-height: 30px;
 }
-.done::before{
-    content:"&#11206";
+.check{
+    color: green;
+    border: 1px solid green;
+    border-radius: 30px;
+}
 
+.cross{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50px;
 }
 
 .cerchio{
@@ -74,6 +81,7 @@ ul{
     background-color: rgb(27, 163, 236);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
 }
 .cerchio_violet{
     font-size: 10px;
@@ -81,6 +89,7 @@ ul{
     background-color:rgb(162, 10, 233);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
 
 }
 .cerchio_green{
@@ -89,6 +98,7 @@ ul{
     background-color:lightgreen;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
 }
 
 .cerchio_orange{
@@ -97,6 +107,7 @@ ul{
     background-color:orange;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
 }
 .cerchio_2{
     font-size: 10px;
@@ -104,6 +115,7 @@ ul{
     background-color:violet;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
 
 }
 .cerchio_lightgreen{
@@ -112,4 +124,5 @@ ul{
     background-color:rgb(163, 255, 16);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
 }
